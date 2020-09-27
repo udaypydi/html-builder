@@ -1,3 +1,3 @@
 # Html Builder
 
-Build html templates
+Build html templates, purely built on tailwind css.
