@@ -1,1 +1,3 @@
-# html-builder
+# Html Builder
+
+Build html templates
