@@ -1,0 +1,20 @@
+{
+  "name": "tailwind-html-builder",
+  "version": "1.0.0",
+  "description": "Build html templates, purely built on tailwind css.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udaypydi/tailwind-html-builder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/udaypydi/tailwind-html-builder/issues"
+  },
+  "homepage": "https://github.com/udaypydi/tailwind-html-builder#readme"
+}
