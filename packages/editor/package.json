@@ -5,9 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "bundle": "rollup index.js --file dist/bundle.js --format cjs"
+    "bundle": "rollup index.js --file dist/bundle.js --format cjs",
+    "watch-bundle": "rollup index.js --file dist/bundle.js --format cjs --watch"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }
