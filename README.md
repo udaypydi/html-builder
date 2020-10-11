@@ -1,3 +1,3 @@
-# Html Builder
+# Tailwind HTML Builder
 
-Build html templates, purely built on tailwind css.
+Build html templates, by drag and drop. Purely build on tailwind css.
