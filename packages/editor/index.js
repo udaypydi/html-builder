@@ -3,7 +3,7 @@ import React from "react";
 function App() {
     return (
         <div>
-            <p>Demo</p>
+            <p>Tailwind Editor</p>
         </div>
     )
 }
