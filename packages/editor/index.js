@@ -1,9 +1,10 @@
 import React from "react";
+import Root from './src/app';
 
 function App() {
     return (
         <div>
-            <p>Tailwind Editor Demo Component</p>
+            <Root />
         </div>
     )
 }
