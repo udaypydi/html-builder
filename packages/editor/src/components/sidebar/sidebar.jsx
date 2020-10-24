@@ -1,4 +1,5 @@
 import React from 'react';
+import { Segment } from 'semantic-ui-react';
 
 const styles = {
     sidebarContainer: {
@@ -12,9 +13,12 @@ const styles = {
 function Sidebar(props) {
     return(
         <div>
-            <div style={styles.sidebarContainer} >
+            <Segment 
+                style={styles.sidebarContainer}
+                raised
+            >
                 <p>Sidebar</p>
-            </div>
+            </Segment>
         </div>
     );
 }
