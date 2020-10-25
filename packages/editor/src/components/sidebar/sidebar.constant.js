@@ -11,6 +11,10 @@ const sidebarConfig = [
         icon: 'i cursor',
         name: 'Input',
     },
+    {
+        icon: 'hand pointer outline',
+        name: 'Button',
+    }
 ]
 
 export default sidebarConfig;
