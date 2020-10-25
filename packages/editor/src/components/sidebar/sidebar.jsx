@@ -1,14 +1,22 @@
 import React from 'react';
 import { Segment, Icon } from 'semantic-ui-react';
+import PropTypes from 'prop-types';
+import cx from "classnames";
 import sidebarConfig from './sidebar.constant';
+
 import './sidebar.scss';
 
 
 function Sidebar(props) {
+    const { customClass } = props;
+    
     return(
         <div className="sidebar">
             <Segment 
-                className="container"
+                className={cx({
+                    "container": true,
+                    customClass: true,
+                })}
                 raised
             >
                 {
@@ -21,6 +29,10 @@ function Sidebar(props) {
             </Segment>
         </div>
     );
+}
+
+Sidebar.propTypes = {
+    customClass: PropTypes.string,
 }
 
 export default Sidebar;
