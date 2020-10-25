@@ -14,6 +14,14 @@ const sidebarConfig = [
     {
         icon: 'hand pointer outline',
         name: 'Button',
+    },
+    {
+        icon: 'expand',
+        name: 'Background',
+    },
+     {
+        icon: 'thumbs up outline',
+        name: 'Social Icons',
     }
 ]
 
