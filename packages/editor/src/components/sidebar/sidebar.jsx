@@ -23,6 +23,7 @@ function Sidebar(props) {
                     sidebarConfig.map(config => (
                         <Segment className="icon">
                             <Icon name={config.icon} style={{ fontSize: 30 }} />
+                            <p>{config.name}</p>
                         </Segment>
                     ))
                 }
