@@ -1,5 +1,6 @@
 import React from 'react';
 import { Segment, Icon } from 'semantic-ui-react';
+import PropTypes from 'prop-types';
 import sidebarConfig from './sidebar.constant';
 import './sidebar.scss';
 
@@ -21,6 +22,10 @@ function Sidebar(props) {
             </Segment>
         </div>
     );
+}
+
+Sidebar.propTypes = {
+    customClass: PropTypes.string,
 }
 
 export default Sidebar;
