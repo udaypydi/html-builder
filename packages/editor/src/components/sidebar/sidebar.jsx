@@ -1,6 +1,7 @@
 import React from 'react';
 import { Segment, Icon } from 'semantic-ui-react';
 import sidebarConfig from './sidebar.constant';
+import './sidebar.scss';
 
 const styles = {
     sidebarContainer: {
@@ -27,8 +28,9 @@ const styles = {
 
 function Sidebar(props) {
     return(
-        <div>
+        <div className="sidebar">
             <Segment 
+                className="container"
                 style={styles.sidebarContainer}
                 raised
             >
