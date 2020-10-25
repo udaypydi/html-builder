@@ -5,13 +5,13 @@ import sidebarConfig from './sidebar.constant';
 const styles = {
     sidebarContainer: {
          width: '20%', 
-         height: '100vh', 
          backgroundColor: '#ffffff', 
          border: '1px solid #ccc',
          display: 'flex',
          alignItems: 'flex-start',
          justifyContent: 'space-evenly',
-         flexWrap: 'wrap'
+         flexWrap: 'wrap',
+         flex: 1,
     },
 
     iconContainer: {
@@ -21,6 +21,7 @@ const styles = {
         alignItems: 'center',
         justifyContent: 'center',
         margin: 0,
+        cursor: 'pointer'
     }
 };
 
