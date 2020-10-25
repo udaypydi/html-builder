@@ -12,7 +12,7 @@
         flex: 1,
     }
 
-    .icon {
+    .icon-container {
         height: 100px;
         width: 100px;
         display: flex;
@@ -22,5 +22,11 @@
         cursor: pointer;
         flex-direction: column;
         text-align: center;
+    }
+
+    .icon-container:hover {
+        transform: scale(1.1);
+        transition: 0.3s ease-in;
+        border: 1px solid #007CBE;
     }
 }
