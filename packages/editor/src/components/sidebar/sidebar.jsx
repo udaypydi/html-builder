@@ -32,6 +32,8 @@ function Sidebar(props) {
     );
 }
 
+/** PropTypes of Sidebar **/
+
 Sidebar.propTypes = {
     customClass: PropTypes.string,
 }
