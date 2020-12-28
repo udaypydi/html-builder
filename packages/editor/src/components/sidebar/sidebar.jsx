@@ -1,3 +1,5 @@
+// Sidebar Component for editor
+
 import React from 'react';
 import { Segment, Icon } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
@@ -8,6 +10,7 @@ import './sidebar.scss';
 
 
 function Sidebar(props) {
+    
     const { customClass } = props;
     
     return(
