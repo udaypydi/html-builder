@@ -18,7 +18,7 @@ function Sidebar(props) {
             <Segment 
                 className={cx({
                     "container": true,
-                    customClass: true,
+                    [customClass]: true,
                 })}
                 raised
             >
